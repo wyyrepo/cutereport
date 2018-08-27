@@ -1,0 +1,2683 @@
+<!DOCTYPE CuteReport>
+<Report>
+ <properties>
+  <name type="QString">Translation</name>
+  <author type="QString">Alexander Mikhalov &lt;alexander.mikhalov@gmail.com></author>
+  <description type="QString">Demonstrates functionality of Translator module. You can translate report to any number of languages and choose translation in runtime.</description>
+  <script type="QString"></script>
+  <version type="int">0</version>
+  <defaultStorage type="QString"></defaultStorage>
+  <defaultRenderer type="QString"></defaultRenderer>
+  <defaultPrinter type="QString"></defaultPrinter>
+  <variables type="QVariantHash">
+   <key name="tr">
+    <value type="QString">en</value>
+   </key>
+  </variables>
+  <customData type="QVariantHash">
+   <key name="moduleVariables">
+    <value type="QStringList">
+     <string type="QString">tr</string>
+    </value>
+   </key>
+   <key name="translator">
+    <value type="QVariantHash">
+     <key name="items">
+      <value type="QVariantHash">
+       <key name="">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="-1">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">ТЕКСТ, РАМКИ, ЦВЕТА</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">ТЕКСТ, РАМКИ, КОЛЬОРИ</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">ТЕКСТ, РАМКИ, ЦВЕТА</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">ТЕКСТ, РАМКИ, КОЛЬОРИ</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="TEXT, BORDERS, COLORS">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">ТЕКСТ, РАМКИ, ЦВЕТА</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">ТЕКСТ, РАМКИ, КОЛЬОРИ</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="TEXT, BORDERS, COLORS">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_1">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Текст с рамкой</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Текст с рамкою</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Text with borders">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_10">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Поворот на 180 градусов</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Обертання на 180 градусів</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="180 degrees rotation">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_11">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Непрозрачность 1.0</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Непрозорість 1.0</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Opacity 1.0">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_110">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">ОПЦИИ ШРИФТА</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">ОПЦІІ ШРИФТУ</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="FONT OPTIONS">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_111">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">&lt;b>Пример&lt;/b> &lt;i>Memo&lt;/i>&lt;br>&lt;newline>E = mc&lt;sup>2&lt;/sup>&lt;br>&lt;newline>A&lt;sub>1&lt;/sub> = B&lt;sup>2&lt;/sup>&lt;br>&lt;newline>это - обычный текст, &lt;font color=red>а это - красный&lt;newline>&lt;/font>&lt;br>&lt;newline>это - обычный текст,  &lt;font color="#FF8030">а это - оранжевый&lt;/font>&lt;newline></value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">&lt;b>Приклад&lt;/b> &lt;i>Memo&lt;/i>&lt;br>&lt;newline>E = mc&lt;sup>2&lt;/sup>&lt;br>&lt;newline>A&lt;sub>1&lt;/sub> = B&lt;sup>2&lt;/sup>&lt;br>&lt;newline>це - звичайний текст, &lt;font color=red>а це - червоний&lt;newline>&lt;/font>&lt;br>&lt;newline>це - звичайний текст,  &lt;font color="#FF8030">а це - помаранчевий&lt;/font></value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="&lt;i>Memo&lt;/i> &lt;b>example&lt;/b>&lt;br>&#xa;E = mc&lt;sup>2&lt;/sup>&lt;br>&#xa;A&lt;sub>1&lt;/sub> = B&lt;sup>2&lt;/sup>&lt;br>&#xa;this is a usual text, &lt;font color=red>and this is a red one&#xa;&lt;/font>&lt;br>&#xa;this is a usual text, &lt;font color=&quot;#FF8030&quot;>and this is an orange one&lt;/font>">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_12">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Непрозрачность 0.2</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Непрозорість 0.2</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Opacity 0.2">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_13">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Поворот на 90 градусов</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Обертання на 90 градусів</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="90 degrees rotation">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_14">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Непрозрачность 0.5</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Непрозорість 0.5</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Opacity 0.5">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_15">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">ВСТРОЕННЫЕ ВЫРАЖЕНИЯ</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">ВБУДОВАНІ ВИРАЗИ</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="INLINE EXPRESSIONS">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_16">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Текст с включенными выражениями:&lt;newline>номер текущей страницы [PAGE]&lt;newline>текущая дата и время: [DATETIME  #d%dd MMMM yyyy, hh:mm]&lt;newline>2 + 3 = [2+3]&lt;newline>cos(0.5) = [Math.cos(0.5)]</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Текст із ввімкненими виразами:&lt;newline>номер поточної сторінки [PAGE]&lt;newline>поточна дата та час: [DATETIME  #d%dd MMMM yyyy, hh:mm]&lt;newline>2 + 3 = [2+3]&lt;newline>cos(0.5) = [Math.cos(0.5)]</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Text with enabled inline expressions:&#xa;current page number is [PAGE]&#xa;current date and time: [DATETIME  #d%dd MMMM yyyy, hh:mm]&#xa;2 + 3 = [2+3]&#xa;cos(0.5) = [Math.cos(0.5)]&#xa;">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_17">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Текст с выключенными выражениями:&lt;newline>номер текущей страницы [PAGE]&lt;newline>текущая дата и время: [DATETIME  #d%dd MMMM yyyy, hh:mm]&lt;newline>2 + 3 = [2+3]&lt;newline>cos(0.5) = [Math.cos(0.5)]</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Текст із вимкненими виразами:&lt;newline>номер поточної сторінки [PAGE]&lt;newline>поточна дата та час: [DATETIME  #d%dd MMMM yyyy, hh:mm]&lt;newline>2 + 3 = [2+3]&lt;newline>cos(0.5) = [Math.cos(0.5)]</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Text with disabled inline expressions:&#xa;current page number is [PAGE]&#xa;current date and time: [DATETIME  #d%dd MMMM yyyy, hh:mm]&#xa;2 + 3 = [2+3]&#xa;cos(0.5) = [Math.cos(0.5)]&#xa;">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_18">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">HTML тэги</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">HTML теги</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="HTML TAGS">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_19">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">true</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;newline>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">&lt;newline>p, li { white-space: pre-wrap; }&lt;newline>&lt;/style>&lt;/head>&lt;body style=" font-family:'Noto Sans [monotype]'; font-size:10.5pt; font-weight:400; font-style:normal;">&lt;newline>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:11pt; font-weight:600;">Пример &lt;/span>&lt;span style=" font-size:11pt; font-style:italic;">Memo &lt;/span>&lt;span style=" font-size:11pt; text-decoration: underline;">c разрешенным HTML&lt;/span>&lt;span style=" font-size:11pt;">&lt;br />E = mc&lt;/span>&lt;span style=" font-size:11pt; vertical-align:super;">2&lt;/span>&lt;span style=" font-size:11pt;">&lt;br />A&lt;/span>&lt;span style=" font-size:11pt; vertical-align:sub;">1&lt;/span>&lt;span style=" font-size:11pt;"> = B&lt;/span>&lt;span style=" font-size:11pt; vertical-align:super;">2&lt;/span>&lt;span style=" font-size:11pt;">&lt;br />это - обычный текст, &lt;/span>&lt;span style=" font-size:11pt; color:#ff0000;">а это - красный &lt;/span>&lt;span style=" font-size:11pt;">&lt;br />это - обычный текст, &lt;/span>&lt;span style=" font-size:11pt; color:#ff8030;">а это - оранжевый&lt;/span>&lt;/p>&lt;/body>&lt;/html></value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;newline>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">&lt;newline>p, li { white-space: pre-wrap; }&lt;newline>&lt;/style>&lt;/head>&lt;body style=" font-family:'Noto Sans [monotype]'; font-size:10.5pt; font-weight:400; font-style:normal;">&lt;newline>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:11pt; font-weight:600;">Приклад &lt;/span>&lt;span style=" font-size:11pt; font-style:italic;">Memo &lt;/span>&lt;span style=" font-size:11pt; text-decoration: underline;">c дозволеним HTML&lt;/span>&lt;span style=" font-size:11pt;">&lt;br />E = mc&lt;/span>&lt;span style=" font-size:11pt; vertical-align:super;">2&lt;/span>&lt;span style=" font-size:11pt;">&lt;br />A&lt;/span>&lt;span style=" font-size:11pt; vertical-align:sub;">1&lt;/span>&lt;span style=" font-size:11pt;"> = B&lt;/span>&lt;span style=" font-size:11pt; vertical-align:super;">2&lt;/span>&lt;span style=" font-size:11pt;">&lt;br />це - звичайний текст, &lt;/span>&lt;span style=" font-size:11pt; color:#ff0000;">а це - червоний &lt;/span>&lt;span style=" font-size:11pt;">&lt;br />це - звичайний текст, &lt;/span>&lt;span style=" font-size:11pt; color:#ff8030;">а це - помаранчевий&lt;/span>&lt;/p>&lt;/body>&lt;/html></value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Noto Sans [monotype]'; font-size:10.5pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-style:italic;&quot;>Memo&lt;/span> &lt;span style=&quot; font-weight:600;&quot;>example &lt;/span>&lt;span style=&quot; text-decoration: underline;&quot;>with HTML allowed&lt;/span>&lt;br />E = mc&lt;span style=&quot; vertical-align:super;&quot;>2&lt;/span>&lt;br />A&lt;span style=&quot; vertical-align:sub;&quot;>1&lt;/span> = B&lt;span style=&quot; vertical-align:super;&quot;>2&lt;/span>&lt;br />this is a usual text, &lt;span style=&quot; color:#ff0000;&quot;>and this is a red one &lt;/span>&lt;br />this is a usual text, &lt;span style=&quot; color:#ff8030;&quot;>and this is an orange one&lt;/span>&lt;/p>&lt;/body>&lt;/html>">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_2">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Различный стиль рамки</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Різний стиль рамки</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Different border style">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_20">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Жирный текст</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Жирний текст</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Bold text">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_21">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Курсив</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Курсив</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Italic text">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_22">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Текст с подчеркиванием</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Текст з підкресленням</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Text with underlines">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_23">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Зачеркнутый текст</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Закреслений текст</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Strikout font">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_3">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Различный стиль рамки</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Різний стиль рамки</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Different border style">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_4">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Различный стиль рамки</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Різний стиль рамки</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Different border style">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_5">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Различный стиль рамки</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Різний стиль рамки</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Different border style">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_6">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Градиентная заливка</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Градієнтна заливка</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Gradient filling">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_7">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Цвет текста</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Колір тексту</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Text color">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_8">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">ВРАЩЕНИЕ, НЕПРОЗРАЧНОСТЬ</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">ОБЕРТАННЯ, НЕПРОЗОРІСТЬ</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="ROTATION, OPACITY">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+       <key name="memo_9">
+        <value type="QVariantHash">
+         <key name="data">
+          <value type="QVariantHash">
+           <key name="0">
+            <value type="QVariantHash">
+             <key name="isHTML">
+              <value type="bool">false</value>
+             </key>
+             <key name="tr">
+              <value type="QVariantHash">
+               <key name="ru">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Произвольный угол вращения</value>
+                 </key>
+                </value>
+               </key>
+               <key name="uk">
+                <value type="QVariantHash">
+                 <key name="actual">
+                  <value type="bool">true</value>
+                 </key>
+                 <key name="str">
+                  <value type="QString">Довільній поворот</value>
+                 </key>
+                </value>
+               </key>
+              </value>
+             </key>
+            </value>
+           </key>
+          </value>
+         </key>
+         <key name="ids">
+          <value type="QVariantHash">
+           <key name="Custom angle rotation">
+            <value type="int">0</value>
+           </key>
+          </value>
+         </key>
+        </value>
+       </key>
+      </value>
+     </key>
+     <key name="langs">
+      <value type="QStringList">
+       <string type="QString">ru</string>
+       <string type="QString">uk</string>
+      </value>
+     </key>
+    </value>
+   </key>
+   <key name="translator_codes">
+    <value type="QStringList">
+     <string type="QString">ru</string>
+     <string type="QString">uk</string>
+    </value>
+   </key>
+   <key name="translator_languages">
+    <value type="QStringList">
+     <string type="QString">ru - Russian (русский)</string>
+     <string type="QString">uk - Ukrainian (українська)</string>
+    </value>
+   </key>
+  </customData>
+  <inheritanceData type="QVariantHash">
+   <key name="baseReportFileName">
+    <value type="QString"></value>
+   </key>
+   <key name="baseReportName">
+    <value type="QString"></value>
+   </key>
+   <key name="baseReportPath">
+    <value type="QString"></value>
+   </key>
+  </inheritanceData>
+ </properties>
+ <children>
+  <Page moduleName="Extended::Page" moduleVersion="1" extends="Standard::Page">
+   <properties>
+    <objectName type="QString">page</objectName>
+    <orientation type="int">0</orientation>
+    <format type="QString">A4</format>
+    <paperSize type="QSizeF">210,297</paperSize>
+    <unit type="QString">Millimeter</unit>
+    <dpi type="int">96</dpi>
+    <columns type="int">1</columns>
+    <columnFillDirection type="int">1</columnFillDirection>
+    <background type="QColor">255,255,255,255</background>
+    <order type="int">0</order>
+    <font type="QFont">Noto Sans [monotype],10.5,-1,5,50,0,0,0,0,0</font>
+    <marginLeft type="double">10</marginLeft>
+    <marginTop type="double">10</marginTop>
+    <marginRight type="double">10</marginRight>
+    <marginBottom type="double">10</marginBottom>
+    <margins type="CuteReport::Margins">10,10,10,10</margins>
+    <printOnPreviousPage type="bool">false</printOnPreviousPage>
+    <allowMirrorMargins type="bool">true</allowMirrorMargins>
+    <endlessWidth type="bool">false</endlessWidth>
+    <endlessHeight type="bool">false</endlessHeight>
+    <pageFlags type="int">0</pageFlags>
+    <useGrid type="bool">false</useGrid>
+    <gridStep type="double">2</gridStep>
+    <magnetValue type="int">9</magnetValue>
+    <magnetRate type="int">3</magnetRate>
+    <gridSteps type="QString">0=2</gridSteps>
+    <resetPageNumber type="bool">false</resetPageNumber>
+   </properties>
+   <children>
+    <Band layoutPriority="100" moduleName="Standard::Page Header" moduleVersion="1" layoutType="1" extends="">
+     <properties>
+      <objectName type="QString">page header</objectName>
+      <enabled type="bool">true</enabled>
+      <geometry type="QRectF">10,10,190,241.986</geometry>
+      <frame type="int">0</frame>
+      <opacity type="double">1</opacity>
+      <rotation type="double">0</rotation>
+      <borderPen type="QPen">
+       <brush type="QBrush">
+        <color type="QColor">0,0,0,255</color>
+        <style type="int">1</style>
+        <texture type="QPixmap"></texture>
+       </brush>
+       <capStyle type="int">16</capStyle>
+       <color type="QColor">0,0,0,255</color>
+       <isCosmetic type="bool">false</isCosmetic>
+       <joinStyle type="int">0</joinStyle>
+       <miterLimit type="double">2</miterLimit>
+       <style type="int">1</style>
+       <width type="double">1</width>
+      </borderPen>
+      <borderType alternateValue="0" type="QString">Middle</borderType>
+      <backgroundBrush type="QBrush">
+       <color type="QColor">0,0,0,255</color>
+       <style type="int">0</style>
+       <texture type="QPixmap"></texture>
+      </backgroundBrush>
+      <order type="int">0</order>
+      <baseItemFlags type="int">0</baseItemFlags>
+      <stretchable type="bool">false</stretchable>
+      <showStretchability type="bool">false</showStretchability>
+      <stretchOriginalSize type="QSizeF">-1,-1</stretchOriginalSize>
+      <font type="QFont">Noto Sans [monotype],10.5,-1,5,50,0,0,0,0,0</font>
+      <firstPage type="bool">true</firstPage>
+      <once type="bool">false</once>
+     </properties>
+     <children>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">0,0,190,8</geometry>
+        <frame type="int">0</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">0,0,0,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">0,0,0,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">1</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">255,220,168,255</color>
+         <style type="int">1</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">0</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">TEXT, BORDERS, COLORS</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10.5,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_1</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">2.1,11.7042,24,18.5833</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">1</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Text with borders</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_2</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">28.8,11.7,24,18.5833</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">0,0,0,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">0,0,0,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">2</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">2</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Different border style</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_3</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">55.1,11.7042,24,18.5833</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">192,0,0,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">192,0,0,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">3</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">3</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Different border style</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_4</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">82.1,11.7042,24,18.5833</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">0,192,192,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">0,192,192,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">4</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">4</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Different border style</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_5</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">109.1,11.7042,24,18.5833</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">0,192,192,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">0,192,192,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">5</style>
+         <width type="double">0.90000000000000002</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">5</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Different border style</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_6</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">135.9,11.7042,24,18.5833</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">15</style>
+         <texture type="QPixmap"></texture>
+         <gradient>
+          <spread type="int">0</spread>
+          <coordinateMode type="int">2</coordinateMode>
+          <type type="int">0</type>
+          <start type="QPointF">0,0</start>
+          <final type="QPointF">0,1</final>
+          <stops>
+           <stop>
+            <point type="double">0</point>
+            <color type="QColor">255,255,255,255</color>
+           </stop>
+           <stop>
+            <point type="double">0.40000000000000002</point>
+            <color type="QColor">207,255,195,255</color>
+           </stop>
+           <stop>
+            <point type="double">0.59999999999999998</point>
+            <color type="QColor">156,255,128,255</color>
+           </stop>
+           <stop>
+            <point type="double">1</point>
+            <color type="QColor">116,255,91,255</color>
+           </stop>
+          </stops>
+         </gradient>
+        </backgroundBrush>
+        <order type="int">6</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Gradient filling</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_7</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">162.9,11.7,24,18.5833</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">7</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Text color</text>
+        <textColor type="QColor">0,0,255,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,14,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_8</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">0,33.4625,190,8</geometry>
+        <frame type="int">0</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">0,0,0,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">0,0,0,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">1</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">255,220,168,255</color>
+         <style type="int">1</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">8</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">ROTATION, OPACITY</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10.5,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_9</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">2.90625,45.2979,27,18.6</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">45</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">9</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Custom angle rotation</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_10</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">37.45,45.2979,27,18.5833</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">180</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">10</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">180 degrees rotation</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_13</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">67.4958,45.2979,27,18.5833</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">90</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">11</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">90 degrees rotation</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_11</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">92,45.2979,30,18.5833</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">128,0,0,255</color>
+         <style type="int">1</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">12</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Opacity 1.0</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_14</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">124.7,45.2979,30,18.5833</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">0.5</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">128,0,0,255</color>
+         <style type="int">1</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">13</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Opacity 0.5</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_12</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">157.4,45.2979,30,18.5833</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">0.20000000000000001</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">128,0,0,255</color>
+         <style type="int">1</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">14</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Opacity 0.2</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_15</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">0,79.4333,190,8</geometry>
+        <frame type="int">0</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">0,0,0,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">0,0,0,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">1</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">255,220,168,255</color>
+         <style type="int">1</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">15</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">INLINE EXPRESSIONS</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10.5,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_16</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">2.90625,91.3667,90.55,37</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">16</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Text with enabled inline expressions:&lt;newline>current page number is [PAGE]&lt;newline>current date and time: [DATETIME  #d%dd MMMM yyyy, hh:mm]&lt;newline>2 + 3 = [2+3]&lt;newline>cos(0.5) = [Math.cos(0.5)]&lt;newline></text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10.5,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_17</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">101.5,91.3667,85,37</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">17</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Text with disabled inline expressions:&lt;newline>current page number is [PAGE]&lt;newline>current date and time: [DATETIME  #d%dd MMMM yyyy, hh:mm]&lt;newline>2 + 3 = [2+3]&lt;newline>cos(0.5) = [Math.cos(0.5)]&lt;newline></text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10.5,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">&lt;,></expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_18</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">0,130.879,190,8</geometry>
+        <frame type="int">0</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">0,0,0,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">0,0,0,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">1</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">255,220,168,255</color>
+         <style type="int">1</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">18</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">HTML TAGS</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10.5,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_19</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">2.91042,141.96,84.1649,55.4779</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">19</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">true</allowHTML>
+        <allowExpressions type="bool">false</allowExpressions>
+        <text type="QString">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;newline>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">&lt;newline>p, li { white-space: pre-wrap; }&lt;newline>&lt;/style>&lt;/head>&lt;body style=" font-family:'Noto Sans [monotype]'; font-size:10.5pt; font-weight:400; font-style:normal;">&lt;newline>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-style:italic;">Memo&lt;/span> &lt;span style=" font-weight:600;">example &lt;/span>&lt;span style=" text-decoration: underline;">with HTML allowed&lt;/span>&lt;br />E = mc&lt;span style=" vertical-align:super;">2&lt;/span>&lt;br />A&lt;span style=" vertical-align:sub;">1&lt;/span> = B&lt;span style=" vertical-align:super;">2&lt;/span>&lt;br />this is a usual text, &lt;span style=" color:#ff0000;">and this is a red one &lt;/span>&lt;br />this is a usual text, &lt;span style=" color:#ff8030;">and this is an orange one&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10.5,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">&lt;,></expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_20</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">11.3771,212.075,34.5396,20.7</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">20</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Bold text</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10.5,-1,5,75,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_110</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">0,201.694,190,8</geometry>
+        <frame type="int">0</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">0,0,0,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">0,0,0,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">1</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">255,220,168,255</color>
+         <style type="int">1</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">21</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">FONT OPTIONS</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10.5,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_21</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">51.2436,212.075,34.5396,20.7</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">22</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Italic text</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10.5,-1,5,50,1,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_22</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">93.4563,212.075,34.5396,20.7</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">23</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Text with underlines</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10.5,-1,5,50,0,1,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_23</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">133.964,212.075,34.5396,20.7</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">27</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">Strikout font</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10.5,-1,5,50,0,0,1,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+      <Item moduleName="Extended::Memo" moduleVersion="1" extends="Standard::Memo">
+       <properties>
+        <objectName type="QString">memo_111</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">89.6,141.96,97.6587,55.4779</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">220,220,220,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">220,220,220,255</color>
+         <isCosmetic type="bool">false</isCosmetic>
+         <joinStyle type="int">0</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0.29999999999999999</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">28</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="0" type="QString">AlwaysShift</shiftMode>
+        <textFlags type="int">4228</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">false</allowExpressions>
+        <text type="QString">&lt;i>Memo&lt;/i> &lt;b>example&lt;/b>&lt;br>&lt;newline>E = mc&lt;sup>2&lt;/sup>&lt;br>&lt;newline>A&lt;sub>1&lt;/sub> = B&lt;sup>2&lt;/sup>&lt;br>&lt;newline>this is a usual text, &lt;font color=red>and this is a red one&lt;newline>&lt;/font>&lt;br>&lt;newline>this is a usual text, &lt;font color="#FF8030">and this is an orange one&lt;/font></text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Arial,10.5,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+     </children>
+    </Band>
+   </children>
+  </Page>
+ </children>
+</Report>

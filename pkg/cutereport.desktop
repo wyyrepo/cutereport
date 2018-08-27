@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.3.1
+GenericName=Report Generator
+Name=CuteReport report generator
+Name[uk]=CuteReport генератор звітів
+Name[ru]=CuteReport генератор отчетов
+Icon=/usr/share/icons/hicolor/scalable/apps/cutereport.svg
+Exec=cutereport -g
+MimeType=application/qtrp;
+X-KDE-NativeMimeType=application/qtrp
+Categories=Qt;KDE;Development;GUIDesigner;Office
+X-KDE-StartupNotify=true
+Terminal=false
+Caption=CuteReport designer

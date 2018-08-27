@@ -1,0 +1,38 @@
+LINUX
+-----------------------------
+
+1. download and unpack zint library to thirdparty/sources/zint/. If you compil LGPL
+   version of CuteReport you can skip this step.
+2. exit build.cfg and set BUILD_TYPE variable to GPL ot LGPL.
+3. uncomment #DEFINES += SYSTEMINSTALL and set correct path to install
+   in SYSTEM_INSTALL_PATH. Usually it should be set to "/usr/local" or
+   "/usr/"
+4. qmake
+5. make
+6. make install
+7. run in terminal "cutereport" for console app or "cutereport -g" for Cute Designer 
+   or use you Desktop Environment menu to run application "CuteReport"
+
+
+WINDOWS
+-----------------------------
+1. download and unpack zint library to thirdparty/sources/zint/. If you compil LGPL
+   version of CuteReport you can skip this step.
+2. exit build.cfg and set BUILD_TYPE variable to GPL ot LGPL.
+4. qmake
+5. make
+6. make install
+7. go to the "build" directory and run "cutereport -g"
+
+
+MacOS
+-----------------------------
+
+1. download and unpack zint library to thirdparty/sources/zint/. If you compil LGPL
+   version of CuteReport you can skip this step.
+2. exit build.cfg and set BUILD_TYPE variable to GPL ot LGPL.
+3. path_to_qt_dir/bin/qmake
+4. make
+6. make install
+7. cd build
+8. ./cutereport -g

@@ -1,0 +1,26 @@
+CuteReport, Copyright (c) 2012-2017 Alexander Mikhalov <alexander.mikhalov@gmail.com>
+
+This program is free software; you can redistribute it and/or modify it under the
+terms of the GNU General Public License version 3 as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program
+in the file named COPYING; if not, see <http://www.gnu.org/licenses>.
+
+Additionally this programm is distributed under commercial license under the terms specified in 
+your license agreement.
+
+CuteReport includes also materials developed by third parties.
+Please, read the files named THIRDPARTY-LICENSE for more details about third parties
+materials licenses.
+
+IMPORTANT NOTE: Opensource version of CuteReport contains Barcode Item that uses QZint
+library provided under GPLv3. So you MUST NOT use it along with lGPL CuteReport library
+in your proprietary applications. Barcode can be used only with GPL CuteReport version
+and linked only to GPL application. In case you have compiled Barcode item and use it
+with CuteReport, you must compil and use CuteReport under GPLv3 only.
+Professional version does not use QZint and does not have this limitation.
+

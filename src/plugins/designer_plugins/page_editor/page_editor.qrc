@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/editor_48.png</file>
+        <file>images/document-new.png</file>
+        <file>images/document-close.png</file>
+        <file>images/document-multiple.png</file>
+        <file>images/italic-h-icon.png</file>
+        <file>images/strikeout-h-icon.png</file>
+        <file>images/underline-h-icon.png</file>
+        <file>images/bold-h-icon.png</file>
+        <file>images/font.png</file>
+        <file>images/format-text-color.png</file>
+        <file>images/format-justify-center.png</file>
+        <file>images/format-justify-fill.png</file>
+        <file>images/format-justify-left.png</file>
+        <file>images/format-justify-right.png</file>
+        <file>images/format-justify-bottom.png</file>
+        <file>images/format-justify-middle.png</file>
+        <file>images/format-justify-top.png</file>
+        <file>images/move_right.png</file>
+        <file>images/move_left.png</file>
+        <file>images/word-wrap.png</file>
+        <file>images/frame_bottom.png</file>
+        <file>images/frame_left.png</file>
+        <file>images/frame_right.png</file>
+        <file>images/frame_top.png</file>
+        <file>images/frame_none.png</file>
+        <file>images/frame_all.png</file>
+        <file>images/document-save-as.png</file>
+    </qresource>
+</RCC>

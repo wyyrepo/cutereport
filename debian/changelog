@@ -1,0 +1,222 @@
+cutereport (1.3) UNRELEASED; urgency=medium
+
+  [ Alexander ]
+  * Model dataset code example added
+  * CuteReport fixes for examples
+  * - Items rect changed from boundingRect() to rect(); - PainterDelegate updated
+  * Refactoring
+  * Renderer refactoring completed
+  * - A lot of untracked changes - Inheritance is in progress
+  * Missed files
+  * a lot of small bug fixes and improvements
+  * SqlDataset: database options added
+  * CSV dataset editing of a text data
+  * Item split (in progress)
+  * PropertyEditor: - regression fixed: property name was editable - flag deletage is fixed to correct show AlignCenter enum
+  * Report core refactoring to use double precission
+  * PageEditor now expands object tree on start
+  * PropertyEditor auto column width implemented
+  * Warning before delete non empty page
+  * FancyTab trying to change tab width (doesn't work)
+  * Copyright year updated
+  * small fixes
+  * Demo report regressions fixes
+  * Preview dialog minimum width set to 300
+  * Item interface refactoring to give ability to an item to know id of generated view
+  * ReportView how can show pass number
+  * - Some new methods added to rendereriteminterface.h - items are fixed to have appropriate logic for renderBegin()
+  * Page magnet fix
+  * PageEditor load/save selected object (in progress)
+  * Load/Save of selected items implemented
+  * Pressing of the Del key now works properly in ObjectInspector
+  * Console application: option to set preview widget size has been added
+  * Config processor between versions added
+  * New Memo properties: lineSpacing, textIndent
+  * CHANGELOG update
+  * prerelease fixes
+  * Detail footer crash fixed
+  * License info added to About Dialog
+  * Windows compilation fixes
+  * Windows blink on create new page event fixed
+  * TabWidget blinking on adding new page fixed
+  * More windows fixes
+  * Windows specific issues fixed
+  * FontEditor fix: now it does not reset all other item's font parameters when font family or font size is changed (for group)
+  * FontEditor fix: now it does not reset all other item's font parameters when font family or font size is changed (for group)
+  * prerelease fixes
+  * Dialog to ask report restoring after crash
+  * Report inheritance fixes
+  * fix for wrong signal
+  * Prerelease fixes
+  * BaseItemInterface border drawing fix
+  * About dialog link to website is clickable now
+  * Preview progress improved
+
+  [ alex ]
+
+ -- Alexander <alexander.mikhalov@gmail.com>  Fri, 16 Sep 2016 22:28:31 -0400
+
+cutereport (1.3) trusty; urgency=medium
+
+  [ Alexander ]
+  * Designer core improve
+  * Apps building moved to CuteReport.pro to make correct dependency of extended modules on static build
+  * Pre-release fixes
+  * Log message removing "\n"
+  * ReportInterface custom data added
+  * Log message removing "\n" second try
+  * wrong file
+  * Thirdparty path and doc path added to linux.pri
+  * report resources path improved
+  * release 1.2 fixes
+  * 1.2 pre-release Windows static build fixes
+  * 1.2 Demo windows static build fixes
+  * 1.2 pre-release fixes
+  * Workaround for Qt builds without QtTest module. Required for original Nokia files.
+  * Small changes
+  * Improvement to support translator functions
+  * Internal string refactoring to provide more data about processed string.
+  * Locale options is added to ReportInterface
+  * - Changelog update - form subproject added - fancytab widget changed
+  * Small fixes
+  * Core changes for Forms
+  * -ReportCore::objectsList methods added
+  * Changelog updated
+  * - Renderer fix - report preview delay changed from 2 sec to 1 sec
+  * SF #31 Qt 4.6 compilation fixed
+  * All LGPL files moved to a separated library
+  * Copyright updated to include 2016 year
+  * QScriptEdit moved to Widgets Thirdparty library
+  * Saving file on Designer exis now shows correct path (for Qt and OS dialogs)
+  * Now ReportEditor doesn't show unnecessary File actions for DEMO build
+
+  [ alex ]
+
+  [ Alexander ]
+  * Model dataset code example added
+  * CuteReport fixes for examples
+  * - Items rect changed from boundingRect() to rect(); - PainterDelegate updated
+  * Refactoring
+  * Renderer refactoring completed
+  * - A lot of untracked changes - Inheritance is in progress
+  * Missed files
+  * a lot of small bug fixes and improvements
+  * SqlDataset: database options added
+  * CSV dataset editing of a text data
+  * Item split (in progress)
+  * PropertyEditor: - regression fixed: property name was editable - flag deletage is fixed to correct show AlignCenter enum
+  * Report core refactoring to use double precission
+  * PageEditor now expands object tree on start
+  * PropertyEditor auto column width implemented
+  * Warning before delete non empty page
+  * FancyTab trying to change tab width (doesn't work)
+  * Copyright year updated
+  * small fixes
+  * Demo report regressions fixes
+  * Preview dialog minimum width set to 300
+  * Item interface refactoring to give ability to an item to know id of generated view
+  * ReportView how can show pass number
+  * - Some new methods added to rendereriteminterface.h - items are fixed to have appropriate logic for renderBegin()
+  * Page magnet fix
+  * PageEditor load/save selected object (in progress)
+  * Load/Save of selected items implemented
+  * Pressing of the Del key now works properly in ObjectInspector
+  * Console application: option to set preview widget size has been added
+  * Config processor between versions added
+  * New Memo properties: lineSpacing, textIndent
+  * CHANGELOG update
+  * prerelease fixes
+  * Detail footer crash fixed
+  * License info added to About Dialog
+  * Windows compilation fixes
+  * Windows blink on create new page event fixed
+  * TabWidget blinking on adding new page fixed
+  * More windows fixes
+  * Windows specific issues fixed
+  * FontEditor fix: now it does not reset all other item's font parameters when font family or font size is changed (for group)
+  * FontEditor fix: now it does not reset all other item's font parameters when font family or font size is changed (for group)
+  * prerelease fixes
+  * Dialog to ask report restoring after crash
+  * Report inheritance fixes
+  * fix for wrong signal
+  * Prerelease fixes
+  * BaseItemInterface border drawing fix
+  * About dialog link to website is clickable now
+  * Preview progress improved
+
+  [ alex ]
+
+ -- alex <alex@alex-m4800>  Fri, 16 Sep 2016 22:27:07 -0400
+
+cutereport (1.2ubuntu1) trusty; urgency=medium
+
+  [ Alexander ]
+  * UPDATE: build system improved (framework type variable added)
+  * UPDATE: Mac OS fixes
+  * UPDATE: Core improvements and fixes
+  * ICU license added
+  * NEW: Designer now has menu with list of recent reports
+  * NEW: ability to edit preview data (initial implementation)
+  * Dataset new methods for init/reset rendering RendererProcessor improved to support init/reset methods for datasets
+  * ReportPreview method to set FitWIdth or FitPage
+  * Version changed to 1.2
+  * small bug fixing while preparing demo reports
+  * Small fixes while working with Demo App
+  * Detail header behaviour fixed; Item with children deletion crash fixed;
+  * UPDATE: ReportPReview new method to show or not to show progress dialog
+  * small updates in project structure
+  * Variablle Editor not has "Not defined" variable type to correctly process custom QVariant types
+  * ModelDataset log message added
+  * - correct saving a list of open reports; - rendererer now corectly processes situation when borders of embedded expressions are not set
+  * Console and Designer merged to one single application. To strat designer run "cutereport -g"
+  * Page counter can be optionaly reset on rendering new template page. Pge has new property for that "resetPageNumber"
+  * - Image item small fix; - PropertyEditor string small fix; - Changelog updated;
+  * NEW: some detalisation level for items implemented. Memo can show full content or just name on template.
+  * FIX: last open report list fix;
+
+  [ alex ]
+
+ -- alex <alex@alex-m4800>  Mon, 23 Nov 2015 00:16:58 -0800
+
+cutereport (1.0ubuntu1) trusty; urgency=medium
+
+  [ Alexander ]
+  * UPDATE: build system improved (framework type variable added)
+  * UPDATE: Mac OS fixes
+  * UPDATE: Core improvements and fixes
+  * ICU license added
+  * NEW: Designer now has menu with list of recent reports
+  * NEW: ability to edit preview data (initial implementation)
+  * Dataset new methods for init/reset rendering RendererProcessor improved to support init/reset methods for datasets
+  * ReportPreview method to set FitWIdth or FitPage
+  * Version changed to 1.2
+  * small bug fixing while preparing demo reports
+  * Small fixes while working with Demo App
+  * Detail header behaviour fixed; Item with children deletion crash fixed;
+  * UPDATE: ReportPReview new method to show or not to show progress dialog
+  * small updates in project structure
+  * Variablle Editor not has "Not defined" variable type to correctly process custom QVariant types
+  * ModelDataset log message added
+  * - correct saving a list of open reports; - rendererer now corectly processes situation when borders of embedded expressions are not set
+  * Console and Designer merged to one single application. To strat designer run "cutereport -g"
+  * Page counter can be optionaly reset on rendering new template page. Pge has new property for that "resetPageNumber"
+  * - Image item small fix; - PropertyEditor string small fix; - Changelog updated;
+  * NEW: some detalisation level for items implemented. Memo can show full content or just name on template.
+  * FIX: last open report list fix;
+
+  [ alex ]
+
+ -- alex <alex@alex-m4800>  Mon, 23 Nov 2015 00:15:29 -0800
+
+cutereport (1.0) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Alexander <alexander.mikhalov@gmail.com>  Wed, 5 May 2015 21:33:04 -0700
+
+cutereport (1.0-rc4) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Alexander <alexander.mikhalov@gmail.com>  Wed, 19 Feb 2015 21:33:04 -0700
+

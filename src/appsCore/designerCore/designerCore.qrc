@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/application_exit.png</file>
+        <file>images/storage_96x96.jpeg</file>
+        <file>images/logo_big.png</file>
+        <file>images/dialog-information.png</file>
+        <file>images/run-build.png</file>
+        <file>images/media-playback-start.png</file>
+        <file>images/arrow_up_6_green.png</file>
+        <file>images/arrow_up_6_red.png</file>
+        <file>images/renderer_96x96.png</file>
+        <file>images/printer_96x96.png</file>
+        <file>images/copy.png</file>
+        <file>images/paste.png</file>
+        <file>images/cut.png</file>
+        <file>images/options_report.png</file>
+        <file>images/logo.svg</file>
+    </qresource>
+</RCC>

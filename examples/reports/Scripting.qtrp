@@ -1,0 +1,235 @@
+<!DOCTYPE CuteReport>
+<Report>
+ <properties>
+  <name type="QString">Scripting</name>
+  <author type="QString">Alexander Mikhalov &lt;alexander.mikhalov@gmail.com></author>
+  <description type="QString">This report shows how to set object's property dynamicaly by catching signal.&lt;newline>Background color is set by random.&lt;newline>&lt;newline>NOTE:&lt;newline>set correct "dir" variable for this report in the "Variables" widget.</description>
+  <script type="QString">memoitem.printDataBefore.connect(memo_test);&lt;newline>&lt;newline>print('_Start_');&lt;newline>&lt;newline>function memo_test() {&lt;newline>    memoitem.text = data.getValue("name");&lt;newline>    var max = 255;&lt;newline>    var min = 0;&lt;newline>    var r = Math.floor(Math.random()*(max-min+1)+min);&lt;newline>    var g = Math.floor(Math.random()*(max-min+1)+min);&lt;newline>    var b = Math.floor(Math.random()*(max-min+1)+min);&lt;newline>    memoitem.backgroundBrush = new QBrush(new QColor(r,g,b));&lt;newline>}&lt;newline></script>
+  <version type="int">0</version>
+  <defaultStorage type="QString"></defaultStorage>
+  <defaultRenderer type="QString"></defaultRenderer>
+  <defaultPrinter type="QString"></defaultPrinter>
+  <variables type="QVariantHash">
+   <key name="dir">
+    <value type="QString">/home/alex</value>
+   </key>
+  </variables>
+  <customData type="QVariantHash"/>
+  <inheritanceData type="QVariantHash">
+   <key name="baseReportFileName">
+    <value type="QString"></value>
+   </key>
+   <key name="baseReportName">
+    <value type="QString"></value>
+   </key>
+   <key name="baseReportPath">
+    <value type="QString"></value>
+   </key>
+  </inheritanceData>
+ </properties>
+ <children>
+  <Page extends="Standard::Page" moduleName="Extended::Page" moduleVersion="1">
+   <properties>
+    <objectName type="QString">page</objectName>
+    <orientation type="int">0</orientation>
+    <format type="QString">A4</format>
+    <paperSize type="QSizeF">210,297</paperSize>
+    <unit type="QString">Millimeter</unit>
+    <dpi type="int">96</dpi>
+    <columns type="int">1</columns>
+    <columnFillDirection type="int">1</columnFillDirection>
+    <background type="QColor">255,255,255,255</background>
+    <order type="int">0</order>
+    <font type="QFont">Ubuntu,11,-1,5,50,0,0,0,0,0</font>
+    <marginLeft type="double">10</marginLeft>
+    <marginTop type="double">10</marginTop>
+    <marginRight type="double">10</marginRight>
+    <marginBottom type="double">10</marginBottom>
+    <margins type="CuteReport::Margins">10,10,10,10</margins>
+    <printOnPreviousPage type="bool">false</printOnPreviousPage>
+    <allowMirrorMargins type="bool">true</allowMirrorMargins>
+    <endlessWidth type="bool">false</endlessWidth>
+    <endlessHeight type="bool">false</endlessHeight>
+    <pageFlags type="int">0</pageFlags>
+    <useGrid type="bool">false</useGrid>
+    <gridStep type="double">0.5</gridStep>
+    <magnetValue type="int">15</magnetValue>
+    <magnetRate type="int">6</magnetRate>
+    <gridSteps type="QString">0=0.5</gridSteps>
+    <resetPageNumber type="bool">false</resetPageNumber>
+   </properties>
+   <children>
+    <Band layoutPriority="50" extends="" layoutType="1" moduleName="Standard::Detail" moduleVersion="1">
+     <properties>
+      <objectName type="QString">detail</objectName>
+      <enabled type="bool">true</enabled>
+      <geometry type="QRectF">10,10,190,31.5</geometry>
+      <frame type="int">15</frame>
+      <opacity type="double">1</opacity>
+      <rotation type="double">0</rotation>
+      <borderPen type="QPen">
+       <brush type="QBrush">
+        <color type="QColor">0,0,0,255</color>
+        <style type="int">1</style>
+        <texture type="QPixmap"></texture>
+       </brush>
+       <capStyle type="int">16</capStyle>
+       <color type="QColor">0,0,0,255</color>
+       <isCosmetic type="bool">true</isCosmetic>
+       <joinStyle type="int">64</joinStyle>
+       <miterLimit type="double">2</miterLimit>
+       <style type="int">1</style>
+       <width type="double">0</width>
+      </borderPen>
+      <borderType alternateValue="0" type="QString">Middle</borderType>
+      <backgroundBrush type="QBrush">
+       <color type="QColor">0,0,0,255</color>
+       <style type="int">0</style>
+       <texture type="QPixmap"></texture>
+      </backgroundBrush>
+      <order type="int">0</order>
+      <baseItemFlags type="int">0</baseItemFlags>
+      <stretchable type="bool">false</stretchable>
+      <showStretchability type="bool">false</showStretchability>
+      <stretchOriginalSize type="QSizeF">-1,-1</stretchOriginalSize>
+      <font type="QFont">Ubuntu,11,-1,5,50,0,0,0,0,0</font>
+      <dataset type="QString">data</dataset>
+      <zebra type="bool">false</zebra>
+      <alternateBrush type="QBrush">
+       <color type="QColor">0,0,0,255</color>
+       <style type="int">0</style>
+       <texture type="QPixmap"></texture>
+      </alternateBrush>
+      <forceNewPage type="bool">false</forceNewPage>
+      <allowSplit type="bool">false</allowSplit>
+     </properties>
+     <children>
+      <Item extends="" moduleName="Standard::Image" moduleVersion="1">
+       <properties>
+        <objectName type="QString">imageitem</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">124,0,66,31.5</geometry>
+        <frame type="int">15</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">0,0,0,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">0,0,0,255</color>
+         <isCosmetic type="bool">true</isCosmetic>
+         <joinStyle type="int">64</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">1</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="1" type="QString">DontShift</shiftMode>
+        <sourceType alternateValue="1" type="QString">Storage</sourceType>
+        <source type="QString">file://[data."name"]</source>
+        <image type="QPixmap"></image>
+        <keepAspectRatio type="bool">true</keepAspectRatio>
+        <center type="bool">true</center>
+        <scaleType type="ImageItem::ScaleType"/>
+       </properties>
+      </Item>
+      <Item extends="Standard::Memo" moduleName="Extended::Memo" moduleVersion="1">
+       <properties>
+        <objectName type="QString">memoitem</objectName>
+        <enabled type="bool">true</enabled>
+        <geometry type="QRectF">5.5,4.15,109.5,22.5521</geometry>
+        <frame type="int">0</frame>
+        <opacity type="double">1</opacity>
+        <rotation type="double">0</rotation>
+        <borderPen type="QPen">
+         <brush type="QBrush">
+          <color type="QColor">0,0,0,255</color>
+          <style type="int">1</style>
+          <texture type="QPixmap"></texture>
+         </brush>
+         <capStyle type="int">16</capStyle>
+         <color type="QColor">0,0,0,255</color>
+         <isCosmetic type="bool">true</isCosmetic>
+         <joinStyle type="int">64</joinStyle>
+         <miterLimit type="double">2</miterLimit>
+         <style type="int">1</style>
+         <width type="double">0</width>
+        </borderPen>
+        <borderType alternateValue="0" type="QString">Middle</borderType>
+        <backgroundBrush type="QBrush">
+         <color type="QColor">0,0,0,255</color>
+         <style type="int">0</style>
+         <texture type="QPixmap"></texture>
+        </backgroundBrush>
+        <order type="int">2</order>
+        <baseItemFlags type="int">0</baseItemFlags>
+        <shiftMode alternateValue="1" type="QString">DontShift</shiftMode>
+        <textFlags type="int">129</textFlags>
+        <stretchMode alternateValue="0" type="QString">DontStretch</stretchMode>
+        <showStretchability type="bool">true</showStretchability>
+        <allowHTML type="bool">false</allowHTML>
+        <allowExpressions type="bool">true</allowExpressions>
+        <text type="QString">[data."Name"]</text>
+        <textColor type="QColor">0,0,0,255</textColor>
+        <textMargin type="QPointF">1,0</textMargin>
+        <lineSpacing type="double">100</lineSpacing>
+        <textIndent type="double">0</textIndent>
+        <font type="QFont">Ubuntu,10,-1,5,50,0,0,0,0,0</font>
+        <stretchFont type="bool">false</stretchFont>
+        <expDelimiters type="QString">[ , ]</expDelimiters>
+        <flowTo type="QString"></flowTo>
+        <allowSplit type="bool">false</allowSplit>
+       </properties>
+      </Item>
+     </children>
+    </Band>
+   </children>
+  </Page>
+  <Dataset extends="" moduleName="Standard::FileSystem" moduleVersion="1">
+   <properties>
+    <objectName type="QString">data</objectName>
+    <parentDataset type="QString"></parentDataset>
+    <filterCondition type="QString"></filterCondition>
+    <filterColumn type="int">-1</filterColumn>
+    <datasetFlags type="int">0</datasetFlags>
+    <directory type="QString">[${dir}]</directory>
+    <recursionLevel type="int">3</recursionLevel>
+    <maxFiles type="int">5</maxFiles>
+    <filters type="int">882</filters>
+    <nameFilters type="QStringList">
+     <string type="QString">*.jpg</string>
+     <string type="QString">*.png</string>
+    </nameFilters>
+    <pathAppearance type="int">1</pathAppearance>
+   </properties>
+  </Dataset>
+  <Renderer extends="" moduleName="Standard::Renderer" moduleVersion="1">
+   <properties>
+    <objectName type="QString">renderer_duplicate</objectName>
+    <antialiasing type="bool">false</antialiasing>
+    <textAntialiasing type="bool">false</textAntialiasing>
+    <smoothPixmapTransform type="bool">false</smoothPixmapTransform>
+    <dpi type="int">300</dpi>
+    <iterationDelay type="int">0</iterationDelay>
+   </properties>
+  </Renderer>
+  <Storage extends="" moduleName="Standard::FileSystem" moduleVersion="1">
+   <properties>
+    <objectName type="QString">file</objectName>
+    <objectsRootPath type="QString"></objectsRootPath>
+    <rootRelative type="bool">false</rootRelative>
+    <askForOverwrite type="bool">true</askForOverwrite>
+   </properties>
+  </Storage>
+ </children>
+</Report>

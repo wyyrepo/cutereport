@@ -1,0 +1,47 @@
+CUTEREPORT LIBRARY AND CUTEREPORT DESIGNER
+==========================================
+
+CuteReport is an easy, powerful and extendable report solution based on 
+Qt framework. Generally CuteReport consists of two parts: core library 
+and template designer. Both are totally modular and theirs functionality 
+can be simply extended by writing additional modules. It's totally 
+abstract of used data and can use as storage: file system, database, 
+version control systems, etc. The project's goal is to provide powerful, 
+but yet simple to use for inexperienced user and report designers, 
+reporting system.
+
+Key features:
+- A number of data sources: SQL database, Text, FileSystem, external 
+  data model (QAbstractTableModel);
+- Various types of storages to keep report templates and report's 
+  objects like picture, etc: Filesystem, GIT, SQL database, 
+  embedded storage;
+- Plain text or HTML support;
+- Variety of drawing items to construct a great looking report: 
+  text (Memo), Image, Barcode, Arc, Chart, Chord, Ellipse, Line, Pie, 
+  Rectangle;
+- Picture sources: static, dataset, storage;
+- Unlimited number of details within one report;
+- Report Title and Summary;
+- Page Headers and Footers;
+- Item grouping;
+- Aggregate functions: count, min, max, avg, sum;
+- Parameters that can be passed from a custom application;
+- Entire application full featured scripting engine to manage any 
+  aspect of the report rendering;
+- Supported meassure units: Millimeters and Inches;
+- Standalone WYSIWYG designer with ability to extend any functionality 
+  using custom plugin;
+- Some preinstalled Designer plugins: ReportProperty editor, 
+  Page editor, Script editor, Dataset editor, Preview;
+- Runtime dialogs with Designer Form Editor module;
+- Multilingual reports;
+- Report inheritance;
+- Automatic Table of Contents;
+- Crossplatform;
+- Batch multi-threaded report processing
+
+
+BUILDING
+========
+
