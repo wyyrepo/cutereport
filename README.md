@@ -1,2 +1,5 @@
 # cutereport
-https://cute-report.com/en/download      v1.3.2
+https://cute-report.com/en/download     
+cross platform report
+
+v1.3.2
